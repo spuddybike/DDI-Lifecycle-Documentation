@@ -4,6 +4,9 @@
    
    DDIModel.rst
    FieldLevel.rst
+   UserGuide.rst
+   TechnicalGuide.rst
+   
    
 
    
