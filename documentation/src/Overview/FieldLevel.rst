@@ -16,8 +16,6 @@ It seems like a lot but over half the XML Schemas, all the Element Groups, Attri
 
 Field level documentation provides information on what the field contains and if it is a complex element how the elements and attributes within it are used. If you need to know what a specific element contains you can find it in the alphabetical element list in the lower left frame and click on it, for example, MetadataQuality.
 
+.. image:: ../images/docflex-metadata_quality.PNG
 
-includes
 
-- conventions
-- layout
