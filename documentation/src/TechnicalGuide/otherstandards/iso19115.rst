@@ -1,4 +1,4 @@
-SO 19115 - Geography
+ISO 19115 - Geography
 ---------------------
 
 The construction of geographic objects within DDI was done using the US
