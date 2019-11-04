@@ -24,7 +24,7 @@ This is followed by the XML Representation Summary which is a listing of each el
 
 The convention used is:
 
-+-----------+----------------------------------+
++-----------+--------+-------------------------+
 | Element   | Symbol | Description             |  
 +-----------+--------+-------------------------+
 | ElementA  |  [ ]   | required/not repeatable |
@@ -34,7 +34,7 @@ The convention used is:
 | ElementC  |  [?]   | optional/not repeatable |
 +-----------+--------+-------------------------+
 | ElementD  |  [*]   | optional/repeatable     |
-+-----------+----------------------------------+
++-----------+--------+-------------------------+
 
 The elements within the content model are listed in alphabetical order followed by the list of elements where MetadataQuality is available, known usage locations, documentation (annotation), and the XML Source. 
 
