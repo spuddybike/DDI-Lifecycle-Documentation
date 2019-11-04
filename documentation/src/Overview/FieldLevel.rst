@@ -28,8 +28,11 @@ The convention used is:
 | Element   | Symbol | Description             |  
 +-----------+--------+-------------------------+
 | ElementA  | [ ]    | required/not repeatable |
+|           |        |                         |
 | ElementB  | [+]    | required/repeatable     |
+|           |        |                         |
 | ElementC  | [?]    | optional/not repeatable |
+|           |        |                         |
 | ElementD  | [*]    | optional/repeatable     |
 +-----------+----------------------------------+
 
