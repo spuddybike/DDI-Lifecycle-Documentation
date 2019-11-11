@@ -7,7 +7,7 @@ for four primary documenttypes: StudyUnit, Group, ResourcePackage, and LocalHold
 The FragmentInstance is a uniform package used to transfer maintainable or versionable objects plus any associated Notes or
 OtherMaterial. These would be packets sent in response to system calls (external references, query calls, etc.).
 
-..\images\ddiinstance.png
+../images/ddiinstance.png
 
 
 
