@@ -249,3 +249,36 @@ prefer to manage all metadata that is not specifically reused in-line within the
 
 Both approaches will be discussed within the context of each User Story **[3 User Stories – Applying DDI]**. If an organization uses one extreme or the other for all or a class of metadata, this should be noted within the organization’s DDIProfile. For example, noting that the in-line option is not used for specific objects where there is a choice.
 
+Managing Metadata Over Time
+----------------------------
+
+Organizing metadata for the purposes of long-term management may be different than how it is organized for document presentation. DDI 3.2 has provided additional features, such as the ability to include Maintainable objects and most Versionable objects either in-line or by reference, that facilitate the management of metadata outside of specific publication packages. Consider how metadata may be
+used in the future to facilitate the following activities: 
+
+- Reuse of metadata such as questions or variables within a series
+- Common metadata that can support comparison between studies within a larger collection
+(Geographic Structures, Geographic Locations, Concepts, Universe hierarchies, Organizations
+and Individuals, etc.)
+- Metadata that will be maintained and versioned over time (Categories, Concepts, Geographic
+Locations, etc.)
+
+Separating these schemes of metadata from their applied use within as specific study facilitates reuse and comparison. For example, a study that uses a subset of concepts by reference retains information regarding the relationship of those concepts to a broader conceptual model. In organizing metadata for long-term management and broad reuse, consider how the metadata will be reused, in particular making use of nested schemes to facilitate the reuse of common subsets.
+
+Versioning
+___________
+
+DDI has a basic rule regarding versioning. If the isPublished of the Maintainable object is set to “true” any change in the content should result in a new version. The exception to this is changes in Administrative Metadata (pt1: Identification, Versioning, Maintenance, and Reference / Administrative and Payload Metadata) which do not trigger versioning. Version numbers follow a specific structure but DDI does not support any specific versioning rules aside from the basic rule. Maintenance organizations
+should determine their own versioning rules which may vary by project or over time. 
+
+These should describe the decision rules regarding when an change results in a new version of an object or a new object, level of change (major, minor, sub-minor) and how those are expressed in the version number. These versioning rules should be expressed within the description of the Maintenance organization, project, or individual in the Organization Scheme. This allows users to understand any underlying logic in the versioning system used by the metadata. Completing the field VersionRationale is also an aid to a
+future user in determining whether the change will affect their research results. 
+
+Prior to setting the isPublished flag to “true” it is a common practice to leave the version number at 1 (or similar base level) and indicate changes using the version date. Changes in the version date do not affect references to the object yet allow for object level tracking of changes during development periods.
+
+DDI Scheme Groups
+__________________
+
+All schemes in DDI have a scheme group structure that allows users to identify sets of scheme objects and scheme groups that have specific relationships to each other. These may be related by subject, concept, universe, usage, or any relationship defined by the user. Because these groups are created by referencing the objects and groups they contain a single object can move into and out of multiple groupings over time. 
+
+These groups are administrative in nature and cannot be used to include a set of objects in another scheme or usage. For example, a QuestionGroup cannot be referenced by a QuestionConstruct as a set of objects.
+
