@@ -59,6 +59,101 @@ A full list of allowed XHTML tags and their usage is found in the appendixes [Ap
     </r:Content>
   </r:Description>
 
+It would be interpreted as:
+
+A single person may include any of the following:
+- Never married
+- Widowed
+- Divorced
+
+Note that if isPlainText="true" the same line would be interpreted as: 
+
+A single person may include any of the following:
+
+.. code-block:: XML
+
+<xhtml:list><xhtml:item>Nevermarried</xhtml:item>
+<xhtml:item>Widowed</xhtml:item>
+<xhtml:item>Divorced</xhtml:item></xhtml:list>
+
+Dates
+-------
+
+The standard Date structure supports single dates and date ranges with a start date only, start and end
+date, and end date only. Single date should only be used for events attached to a specific date, a point in
+time rather than a period of time. This allows capturing dates as expressed in original do documents or to
+capture more descriptive date information. The ISO 8601 allowed structures include:
+
++--------------------+-------------------------+-----------------------+ 
+| xml property       | ISO Format              | Example               |
++--------------------+-------------------------+-----------------------+ 
+| xs:dateTime        | yyyy-mm-ddThh:mm:ss     | 1982-01-05T23:05:15   |
+|                    |                         |                       |
+| xs:date            | yyyy-mm-dd              | 1982-01-05            |
+|                    |                         |                       |
+| xs:gYearMonth      | yyyy-mm                 | 1982-01               |
+|                    |                         |                       |
+| xs:gYear           | yyyy                    | 1982                  |
+|                    |                         |                       |
+| xs:duration        | PnnYnnMnnDTnnHnnMnn     | SP26Y02M22DT11H05M20S |
++--------------------+-------------------------+-----------------------+ 
+
+Note that the "T" in dateTime is literal, denoting the beginning of the Time section, and that "ss" can
+contain decimals. Optionally, dateTime can be extended by a time zone offset of "Z" to represent Zulu
+time or GMT. For example, Eastern Standard Time is Z-4. 
+
+Note that the "P" in duration is literal and indicates that this is a Period of duration. The other upper
+case letters are also required with the preceding number providing the number of years (nY), months
+(nM), etc. A period may be of negative duration, for example a period of minus 10 days (-P10D), by
+preceding the "P" with a negative sign.
+
+All dates must be expressed in the standard ISO 8601 format but may also be expressed as a HistoricalDate. This is simply a string containing the historical date and an attribute historicalDateFormat used to specify the non-ISO date format. For example:
+
+.. code-block:: XML
+
+  <r:HistoricalDate>
+    <r:NonISODate>January 5, 1982</r:NonISODate>
+    <r:HistoricalDateFormat>Month DD, YYYY</r:HistoricalDateFormat>
+    <r:Calendar>Georgian</r:Calender>
+  </r:HistoricalDate>
+
+Historical date information parallels the simple date, start date and end date structures of the standard
+DateType.
+
+Citation and Coverage
+----------------------
+
+Citation in DDI is used by all publication structures, Phyiscal Instance, Other Material, and Collection or
+Item descriptions. A citation in DDI reflects the content of a basic bibliographic citation. All citations
+support the use of full Dublin Core Terms. The fields in the DDI citation support linking to Organizations
+and Individuals described in an Organization Scheme where appropriate. Note that the citation in
+Physical Instance is the citation for the related data file.
+
+Coverage is represented in a separate section available in all maintainable modules. Coverage is separated into Temporal, Topical, and Spatial coverage. It is assumed that coverage expressed in a Study Unit or Group represents the extent of coverage of their contained modules. A module such as DataCollection may be expressed as a restriction of the parent Study Unit. For example, a Data
+Collection for a specific time period within the full temporal coverage of the Study Unit, or a Physical Instance for a data set that covers only a single country within a multi-country study. 
+
+Citation and Coverage are intended to contain information that is readily mapped to external search systems that support standard Dublin Core-like discovery metadata and should reflect the needs of these external systems. The use of shared or common subject headings or thesauri facilitate discovery in these systems.
+
+Notes
+-------
+
+The element Note is available within all Maintainable objects. A Note allows the user to provide
+information not covered by DDI. It is **not intended to replace formal local extensions of the schema**, but
+to support capturing run-time extensions, content that is held in anticipation of a bug correction, or a
+temporary work-around. The primary use of Note is to capture mid-process Notes or instructions which
+may be removed later during the processing of the metadata.
+
+A Note is captured once within a Maintainable object and then references the objects that it is related to. A Note can be attached by reference to any object with an ID. The intent of a Note is to be easily removable (removal of the Note also removes all reference links between the Note and the related objects). If a Note is related to objects outside of the Maintainable within which it exists, the Note should be duplicated in the Maintainable object which contains the other related objects. By placing the Note in the parent Maintainable, the user is assured of having all notes related to an object by checking in the parent Maintainable.
+
+When a Note contains information that will be transferred to future elements or attributes (new content of a sub-minor version correction or the development of formal extensions) the use of the ProprietaryInfo (key/value pair) or well-structured content within the NoteContent field is recommended. Examples of different types of Notes are provided in **TECHNICAL GUIDE [Note]**.
+
+OtherMaterial
+--------------
+
+OtherMaterial provides a generic means of identifying an external object such as a publication, video, image, etc. that can be described by a citation and/or identified by a URI. The identified material can be related to the maintainable as a whole or to a specific object by reference. It is good practice to include the OtherMaterial within the maintainable of the objects it is related to. In addition OtherMaterial is used as an extension base or type for specific pieces of information that are generally held externally
+but need to be more tightly bound to a specific use. For example, an ExternalInterviewerInstruction extends OtherMaterial by adding display information. 
+
+OtherMaterial can be very useful when creating very basic DDI documentation for a large collection. Materials that have not been transformed to DDI (Code lists, questionnaires, interviewer manuals, etc.) can be quickly described and linked to the basic record, retaining their link without full transformation to DDI. The internal content of the material is not as accessible as if it was in DDI but the relationship is not lost.
 
 
 
