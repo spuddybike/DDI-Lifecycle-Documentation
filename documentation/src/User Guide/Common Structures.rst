@@ -32,12 +32,12 @@ String contains attributes to designate the language of the content and basic tr
 
 .. code-block:: XML
 
-<l:VariableName>
-  <r:String xml:lang="en" isTranslated="false" isTranslatable="true">Household Relationship</r:String>
-  <r:String xml:lang="fr" isTranslated="false" isTranslatable="true">Relation des ménages</r:String>
-  <r:String xml:lang="es" isTranslated="true" isTranslatable="true" 
-    translationSourceLanguage="en" translationDate="2012-12-03">Relación de Hogares</r:String>
-</l:VariableName>
+  <l:VariableName>
+    <r:String xml:lang="en" isTranslated="false" isTranslatable="true">Household Relationship</r:String>
+    <r:String xml:lang="fr" isTranslated="false" isTranslatable="true">Relation des ménages</r:String>
+    <r:String xml:lang="es" isTranslated="true" isTranslatable="true" 
+      translationSourceLanguage="en" translationDate="2012-12-03">Relación de Hogares</r:String>
+  </l:VariableName>
 
 What this example states is that the contents of the three strings are language equivalents for the VariableName content. The English and French are both original language content. The Spanish content is a translation of the English done on 2012-12-03. All the content may be translated. Bundling language equivalents together within a single object clarifies which language strings contain the same meaning when an object is repeatable.
 
@@ -48,16 +48,16 @@ A full list of allowed XHTML tags and their usage is found in the appendixes [Ap
 
 .. code-block:: XML
 
-<r:Description>
-  <r:Content xml:lang="en" isTranslated="false" isTranslatable="true"
-    isPlainText=”false”>A single person may include any of the following: 
-    <xhtml:list>
-      <xhtml:item>Never married</xhtml:item>
-      <xhtml:item>Widowed</xhtml:item>
-      <xhtml:item>Divorced</xhtml:item>
-    </xhtml:list>
-  </r:Content>
-</r:Description>
+  <r:Description>
+    <r:Content xml:lang="en" isTranslated="false" isTranslatable="true"
+      isPlainText=”false”>A single person may include any of the following: 
+      <xhtml:list>
+        <xhtml:item>Never married</xhtml:item>
+        <xhtml:item>Widowed</xhtml:item>
+        <xhtml:item>Divorced</xhtml:item>
+      </xhtml:list>
+    </r:Content>
+  </r:Description>
 
 
 
