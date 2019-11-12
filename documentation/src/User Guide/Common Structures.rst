@@ -30,7 +30,7 @@ An InternationalStringType bundles together one or more language equivalents of 
 This requires the use of a sub-element "String" which is repeated for each language provided. 
 String contains attributes to designate the language of the content and basic translation information.
 
-::
+.. code-block:: XML
 
 <l:VariableName>
   <r:String xml:lang="en" isTranslated="false" isTranslatable="true">Household Relationship</r:String>
@@ -38,4 +38,27 @@ String contains attributes to designate the language of the content and basic tr
   <r:String xml:lang="es" isTranslated="true" isTranslatable="true" 
     translationSourceLanguage="en" translationDate="2012-12-03">Relación de Hogares</r:String>
 </l:VariableName>
+
+What this example states is that the contents of the three strings are language equivalents for the VariableName content. The English and French are both original language content. The Spanish content is a translation of the English done on 2012-12-03. All the content may be translated. Bundling language equivalents together within a single object clarifies which language strings contain the same meaning when an object is repeatable.
+
+All elements of a StructuredStringType use the sub-element "Content". Content supports the same language structures using the same attributes as an InternationalStringType. In addition Content may contain a limted set of XHTML structure tags to provide structure to the content. There is one addition attribute "isPlainText" has been added to clarify if the content is to be treated as plain text (no
+formatting structure). The default value for this attribute is "true". If the content contains structure tags this attribute should be changed to "false". Label and Description are two commonly used elements of this type. 
+
+A full list of allowed XHTML tags and their usage is found in the appendixes [Appendix B – XHTML Tags Supported by DDI]. The following example is a Description using an unordered (i.e., bulleted) list. Note that, like InternationalStringType the sub-element Content can be repeated for language equivalents.
+
+.. code-block:: XML
+
+<r:Description>
+  <r:Content xml:lang="en" isTranslated="false" isTranslatable="true"
+    isPlainText=”false”>A single person may include any of the following: 
+    <xhtml:list>
+      <xhtml:item>Never married</xhtml:item>
+      <xhtml:item>Widowed</xhtml:item>
+      <xhtml:item>Divorced</xhtml:item>
+    </xhtml:list>
+  </r:Content>
+</r:Description>
+
+
+
 
