@@ -5,15 +5,15 @@ With the exception of describing the date format in a data capture system or as 
 
 +--------------------+-------------------------+-----------------------+ 
 | xml property       | ISO Format              | Example               |
-+--------------------+-------------------------+-----------------------+ 
++====================+=========================+=======================+
 | xs:dateTime        | yyyy-mm-ddThh:mm:ss     | 1982-01-05T23:05:15   |
-|                    |                         |                       |
++--------------------+-------------------------+-----------------------+ 
 | xs:date            | yyyy-mm-dd              | 1982-01-05            |
-|                    |                         |                       |
++--------------------+-------------------------+-----------------------+ 
 | xs:gYearMonth      | yyyy-mm                 | 1982-01               |
-|                    |                         |                       |
++--------------------+-------------------------+-----------------------+ 
 | xs:gYear           | yyyy                    | 1982                  |
-|                    |                         |                       |
++--------------------+-------------------------+-----------------------+ 
 | xs:duration        | PnnYnnMnnDTnnHnnMnn     | SP26Y02M22DT11H05M20S |
 +--------------------+-------------------------+-----------------------+ 
 
@@ -27,36 +27,38 @@ The overall date format is composed of three primary structures, BaseDateType, D
 
 Eight elements are defined as DateType. Three additional elements use DateType as an extension base, adding specific additional elements or attributes to define the use of the date in that particular location. Five attributes use BaseDateType. Usage locations are listed below.
 
-
 +---------------------------------------------------+ 
 | Element using DateType                            |
-+-------------------------+-------------------------+ 
++=========================+=========================+
 | datacollection.xsd      | DataCollectionDate      |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | EffectivePeriod         |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | GeographicTime          |
-|                         |                         |   
++---------------------------------------------------+    
 | reusable.xsd            | PublicationDate         |
 +-------------------------+-------------------------+ 
+
++-------------------------+-------------------------+ 
 | Element using extension base DateType             |
-+-------------------------+-------------------------+ 
++=========================+=========================+
 | datacollection.xsd      | DataCollectionFrequency |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | AccessRestrictionDate   |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | ReferenceDate           |
-+--------------------------------------------------+ 
++---------------------------------------------------+ 
+
++---------------------------------------------------+ 
 | Attribute using BaseDateType                      |
-+-------------------------+-------------------------+ 
-|                         |                         |
++=========================+=========================+
 | reusable.xsd            | authorizationDate       |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | completionDate          |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | validForEndDate         |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | validForStartDate       |
-|                         |                         |
++---------------------------------------------------+ 
 | reusable.xsd            | versionDate             |
 +-------------------------+-------------------------+ 
