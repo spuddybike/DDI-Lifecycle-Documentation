@@ -27,7 +27,10 @@ A Concept may have sub-concepts, and can be organised hierachically.
 
 **Further Documentation**
 
+Schema Documentation: 
 `Concept <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/ConceptType.html>`_
+
+`UnitType <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/UnitTypeType.html>`_
 
 
 Universe and population
@@ -37,6 +40,12 @@ DDI-Lifecycle differentiates between a Universe and a population. A universe is 
 
 .. image:: ../images/universe_examples.png
    :width: 600px
+
+**Further Documentation**
+
+Schema Documentation: 
+`Universe <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/UniverseType.html>`_
+
 
 Concepts and other elements in DDI-Lifecycle
 _____________________________________________
