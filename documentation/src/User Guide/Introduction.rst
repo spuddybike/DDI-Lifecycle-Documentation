@@ -24,17 +24,14 @@ Data Collection
   - describes how and why and in which way the data was collected, including methodology used, and any processing
 
 Data
-- Logical Product 
+  - Logical Product 
+    – describes the data, the meaning of the data, the relationships between the different data items
 
-  – describes the data, the meaning of the data, the relationships between the different data items
+  - Physical Product 
+    – describes the structure and layout of the data, irrespective of the physical rendering of the data
 
-- Physical Product 
-
-  – describes the structure and layout of the data, irrespective of the physical rendering of the data
-
-- Physical Instance 
-
-  – describes the actual data, provides a place to cite and describe the coverage, where it is located and any issues relating to quality and statistical summaries
+  - Physical Instance 
+    – describes the actual data, provides a place to cite and describe the coverage, where it is located and any issues relating to quality and statistical summaries
 
 DDI Lifecycle Coverage:
 
