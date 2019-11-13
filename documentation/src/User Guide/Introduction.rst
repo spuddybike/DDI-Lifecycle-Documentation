@@ -15,9 +15,11 @@ DDI-Lifecycle Coverage
 A Study is composed of many elements, DDI-Lifecycle allows these to be captured and described in a consistent manner so that the data can be used independently of the producer.
 
 - Conceptual 
-  - comprises those elements that define the ideas and concepts, the data that will be generated, the universe of interest and the geographical area of interest
+  - comprises those elements that define the ideas and concepts, the data that will be generated, the universe of interest and the  
+    geographical area of interest
 - Study Unit 
-  – is made up of information about who did what and information about its dissemination – it is designed to describe for instance a sweep or wave of a ‘study’
+  – is made up of information about who did what and information about its dissemination – it is designed to describe for instance a 
+    sweep or wave of a ‘study’
 - Data Collection 
   - describes how and why and in which way the data was collected, including methodology used, and any processing
 - Logical Product 
@@ -25,8 +27,10 @@ A Study is composed of many elements, DDI-Lifecycle allows these to be captured 
 - Physical Product 
   – describes the structure and layout of the data, irrespective of the physical rendering of the data
 - Physical Instance 
-  – describes the actual data, provides a place to cite and describe the coverage, where it is located and any issues relating to quality and statistical summaries
+  – describes the actual data, provides a place to cite and describe the coverage, where it is located and any issues relating to 
+    quality and statistical summaries
 
+DDI Lifecycle Coverage:
 
 .. image:: ../images/ddi-l-overview.png
    :width: 600px
