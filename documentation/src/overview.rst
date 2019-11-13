@@ -15,7 +15,7 @@ It provides a brief description of the purpose and content of the object. Docume
 ::ref:`usguide-label`
 
 User Guide 
---------------------------
+-----------
 
 This is aimed at those wanting a quick entry into the purpose of DDI-Lifecycle, its scope, its main features, and its relationship to DDI-Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/)
 
@@ -30,6 +30,6 @@ This is aimed at developers wanting to implement DDi-Lifecycle.
 ::ref:`clog-label`
 
 Change Log
---------------------------
+-----------
 
-The change log desribes changes such the previous version of DDi-Lifecycle, to support users migrating between versions.
+The change log desribes changes since the previous version of DDI-Lifecycle, to support users migrating between versions.
