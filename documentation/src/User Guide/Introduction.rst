@@ -36,7 +36,8 @@ DDI-Lifecycle differentiates between a Universe and a population. A universe is 
 Concepts and other elements in DDI-Lifecycle
 _____________________________________________
 
-Concepts are a cornerstone of DDI-Lifecycle, nearly 50 elements have a relationship to it. These include (among others)
+Concepts are a cornerstone of DDI-Lifecycle, nearly 50 elements have a relationship to it. These include (among others):
+
 - Categories and ClassificationItems
 - Conceptual Variables, Represented Variables and Variables
 - Geographic Location and Geographic Structure Groups
