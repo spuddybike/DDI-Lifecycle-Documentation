@@ -18,7 +18,7 @@ _____________________________
 DDi-Lifecycle mirrors ISO/IEC 11179. Concepts are a unit of knowledge created by a unique combination of characteristics, a Unit Type is a synonym of Object, which is a class or object of interest. The combination allows a single concept to be used between different Unit Types and hence Units.  
 
 .. image:: ../images/unit_type_examples.png
-   :width: 600px
+   :width: 400px
 
 A Concept may have sub-concepts, and can be organised hierachically.
 
