@@ -28,7 +28,7 @@ A Study is composed of many elements, DDI-Lifecycle allows these to be captured 
   – describes the actual data, provides a place to cite and describe the coverage, where it is located and any issues relating to quality and statistical summaries
 
 
-.. image:: ../images/ddi-l-overview.jpg
+.. image:: ../images/ddi-l-overview.png
    :width: 600px
 
 
