@@ -1,27 +1,26 @@
-***************************
-User Guide Documentation
-***************************
+*************
+Introduction
+*************
 
-The User Guide provides an introduction to DDI-Lifecycle, its scope, its main features, and its relationship to DDI-Codebook
+DDI-Lifecycle is designed to document and manage data across the entire life cycle, from conceptualization to data publication and analysis and beyond. It encompasses all of DDI-Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/) specification and extends it.
 
-DDi-Lifecycle has the capability to document the rich complexity of social science 160 data across its life course as reflected in the Combined Life Cycle Model [Figure 1].
-
-
-Figure 1 - Combined Life Cycle Model:
+Figure 1 - DDI Lifecycle Model:
 
 .. image:: ../images/DDILifecycle.jpg
-   :width: 400px
+   :width: 600px
 
-based on topic areas in DDI Model documentation
+Functional Description
+------------------------
 
-- Administrative
-- Comparison
+
+- Foundational
 - Data Capture
 - Data Description
-- Foundational
-- Grouping
-- Schemes
 - Survey Development
 - Statistical Classification
+- Administrative
+- Comparison
+- Grouping
+- Schemes
 
 Also, some other high level topics relating to implementation that were in the old User Guide
