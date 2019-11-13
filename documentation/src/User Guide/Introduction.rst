@@ -62,7 +62,31 @@ DDI-Lifecycle supports complex relationships between individuals and organizatio
 Individuals can be described using unique identifiers such as ORCID, as well as structures to support contact information, the periods for which an individual has a relationship with an organization, and the longevity of organisations. Descriptions, keywords and other affiliations are also supported.
 
 **Schema Documentation:**
-`Organization <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/OrganizationType.html>`_
+
+Data Capture
+_____________
+
+Data Collection
+Data Capture Flow
+Questions and Measures
+
+Data Description and Metadata Management
+_________________________________________
+
+
+Data Management and Production
+_________________________________________
+
+
+
+Versioning, Provenance and Identification
+_________________________________________
+
+
+Classification, GSIM and Nuechatel
+___________________________________
+
+
 
 
 
