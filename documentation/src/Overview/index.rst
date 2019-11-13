@@ -22,5 +22,6 @@ This is aimed at developers wanting to implement DDi-Lifecycle.
 
 
 ::ref:`clog-label`
+--------------------------
 
 The change log desribes changes such the previous version of DDi-Lifecycle, to support users migrating between versions.
