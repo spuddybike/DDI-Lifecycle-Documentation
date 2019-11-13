@@ -41,6 +41,8 @@ The following is a list of Modules and Schemes available in DDI Lifecycle along 
 Modules
 ________
 
+.. table
+   ::widths |10|20|70|
 +--------+-----------------------+--------------------------------------------+
 | Prefix | Module Name           | Description                                |  
 +--------+-----------------------+--------------------------------------------+
