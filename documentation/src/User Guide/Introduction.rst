@@ -25,6 +25,11 @@ A Concept may have sub-concepts, and can be organised hierachically.
 .. image:: ../images/concepts_marital_status.png
    :width: 400px
 
+**Further Documentation**
+
+`Concept <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/ConceptType.html>`_
+
+
 Universe and population
 _____________________________
 
