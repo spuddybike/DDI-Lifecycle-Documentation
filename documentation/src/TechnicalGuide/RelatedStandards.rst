@@ -1,13 +1,6 @@
 ******************
 Related Standards
 ******************
-   dublincore.rst
-   gsim.rst
-   iso11179.rst
-   iso19115.rst
-   sdmx.rst
-   mets.rst
-   premis.rst
    
 DDI Codebook (DDI-C) 
 ------------------------------------------
