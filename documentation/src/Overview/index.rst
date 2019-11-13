@@ -9,9 +9,7 @@ Overview of the documentation
    FieldLevel.rst
    Changes.rst
    
-.. _fld-label:
-
-Field Level Documentation
+Field Level Documentation ::ref:`fld-label`
 --------------------------
 
 Field Level documentation in HTML format, produced directly from the XML schemas is available in the downloaded bundle and online 
