@@ -19,6 +19,8 @@ An optional Alias may be defined in cases where a command is written using a Ali
 
 This is particularly useful when using external CommandFile scripts which would not contain the ID of the InParameter in the command. ValueRepresentation allows for a definition of the expected contents and is recommended if you are sharing data with others. DefaultValue provides a value to use if the OutParameter bound to the InParameter provides no value. Binding is a simple linkage indicating the contents of a specified SourceParameter provide the value for the TargetParameter.
 
+.. tabularcolumns:: |l|c|c|c|c|c|
+
 +----------------------------+-----------+-----------+-----------+-----------+---------+
 | Object                     | In        | Out       | Binding   | Source    | Command |
 |                            | Parameter | Parameter |           | Code      | Code    |
