@@ -14,13 +14,13 @@ DDI-Lifecycle Coverage
 
 A Study is composed of many elements, DDI-Lifecycle allows these to be captured and described in a consistent manner so that the data can be used independently of the producer.
 
-Study Unit 
-  – is made up of information about who did what and information about its dissemination – it is designed to describe for instance a sweep or wave of a ‘study’
+Study Unit
+  - is made up of information about who did what and information about its dissemination – it is designed to describe for instance a sweep or wave of a ‘study’
 
-Conceptual 
+Conceptual
   - comprises those elements that define the ideas and concepts, the data that will be generated, the universe of interest and the   geographical area of interest
 
-Data Collection 
+Data Collection
   - describes how and why and in which way the data was collected, including methodology used, and any processing
 
 Data
