@@ -21,7 +21,7 @@ This is aimed at those wanting a quick entry into the purpose of DDI-Lifecycle, 
 
 ::ref:`techguide-label`
 
-Teachnical Guide
+Technical Guide
 -----------------
 
 This is aimed at developers wanting to implement DDi-Lifecycle.
