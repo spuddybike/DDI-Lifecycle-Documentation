@@ -15,7 +15,7 @@ DDI-Lifecycle Coverage
 Concept, Unit Type and Unit
 _____________________________
 
-DDi-Lifeycle mirrors ISO/IEC 11179. Concepts are a unit of knowledge created by a unique combination of characteristics, a Unit Type is a synonym of Object, which is a class or object of interest. The combination allows a single concept to be used between different Unit Types and hence Units.  
+DDi-Lifecycle mirrors ISO/IEC 11179. Concepts are a unit of knowledge created by a unique combination of characteristics, a Unit Type is a synonym of Object, which is a class or object of interest. The combination allows a single concept to be used between different Unit Types and hence Units.  
 
 .. image:: ../images/unit_type_examples.png
    :width: 600px
