@@ -1,3 +1,5 @@
+.. _techguide-label:
+
 *****************
 Technical Guide
 *****************
