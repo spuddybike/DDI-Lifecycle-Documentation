@@ -38,8 +38,6 @@ Eight elements are defined as DateType. Three additional elements use DateType a
 +-------------------------+-------------------------+    
 | reusable.xsd            | PublicationDate         |
 +-------------------------+-------------------------+ 
-
-+-------------------------+-------------------------+ 
 | Element using extension base DateType             |
 +=========================+=========================+
 | datacollection.xsd      | DataCollectionFrequency |
