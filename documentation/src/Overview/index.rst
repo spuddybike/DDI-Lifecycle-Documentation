@@ -2,14 +2,7 @@
 Overview of the documentation
 ************************************
 
-.. toctree::
-   :caption: Table of contents
-   :maxdepth: 2
-   
-   Changes.rst
-   
-Field Level Documentation ::ref:`fld-label`
---------------------------
+::ref:`fld-label`
 
 Field Level documentation in HTML format, produced directly from the XML schemas is available in the downloaded bundle and online 
 at https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema
@@ -27,7 +20,6 @@ Technical Guide Documentation
 This is aimed at developers wanting to implement DDi-Lifecycle.
 
 
-Change Log
---------------
+::ref:`clog-label`
 
 The change log desribes changes such the previous version of DDi-Lifecycle, to support users migrating between versions.
