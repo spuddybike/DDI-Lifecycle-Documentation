@@ -1,13 +1,4 @@
-Represented Variable
-----------------------
+Statistical Classification
+----------------------------
 
-A scheme of reusable Represented Variables was added to Logical Product in order to better support ISO/IEC 11179 by the maintenance and reuse of the basic components of variables. It is anlages to the GSIM Represented Variable. A Represented Variable consists of a reference to a Conceptual Variable or
- 
-to a Concept and Universe (the components of a Conceptual Variable) plus a definition of its representation expressed as a Category Scheme or a Value Representation. This limited structure makes the DDI Represented Variable more generic than the full ISO/IEC 11179 model as it does not include a Represented Variable example, derivation, or derivation rule. Enumerated values are expressed by reference to a Category Scheme or by use of a Code Representation (which contains references to the associated categories). Non-enumerated values may be described broadly or as specifically as supported by the Value Representation structure.
-
-Represented Variables are managed within a Represented Variable Scheme containing all of the common Scheme structures including a Represented Variable Group which allows for associating a group of Represented Variables with a specific Concept or Universe and/or a set of Subjects and Keywords. As with other Groups of objects within Schemes, the Represented Variable Group can be typed and represent order and un-ordered lists or hierarchies.
-
-While a Represented Variable by definition requires a Universe (Object), Concept, and Representation (Value Domain) these are optional in DDI to support production work during which all references may not be available. Note that when referenced by a Variable, the Variable may further constrain the Concept, Universe, and Value Representation. For example: The Concept of Age to a subordinate concept of Physiological Age; Universe of Persons to Persons residing within Luxembourg; and Numeric Representation of single year increments to top coding of 99.
-
-The Represented Variable is a conceptual model of the combination of a concept linked to a specific universe or object that is represented in a particular way. A Variable is the applied use of a Represented Variable where the universe may be further refined (Variable Example 1) and the exact parameters of the representation are defined in greater detail (Variable Example 2). The DDI Represented Variable reflects the structure of the ISO/IEC 11179 Data Element. Note that the Value Representation of the Represented Variable may be broadly defined. The exact details and/or content restrictions for the representation may be added when referenced by a Variable used within a specific application. 
-
+added in DDI-Lifecycle 3.3
