@@ -2,7 +2,12 @@
 User Guide Documentation
 ***************************
 
-This will be high level stuff
+The User Guide provides an introduction to DDI-Lifecycle, its scope, its main features, and its relationship to DDI-Codebook
+
+High level life-cycle model
+
+.. image:: ../images/DDILifecycle.jpg
+   :width: 400px
 
 based on topic areas in DDI Model documentation
 
