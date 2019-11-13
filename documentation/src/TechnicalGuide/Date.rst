@@ -27,6 +27,8 @@ The overall date format is composed of three primary structures, BaseDateType, D
 
 Eight elements are defined as DateType. Three additional elements use DateType as an extension base, adding specific additional elements or attributes to define the use of the date in that particular location. Five attributes use BaseDateType. Usage locations are listed below.
 
+.. table:
+   :width 60%
 +---------------------------------------------------+ 
 | Element using DateType                            |
 +=========================+=========================+
@@ -38,6 +40,11 @@ Eight elements are defined as DateType. Three additional elements use DateType a
 +-------------------------+-------------------------+    
 | reusable.xsd            | PublicationDate         |
 +-------------------------+-------------------------+ 
+
+.. table:
+   :width 60%
+
++---------------------------------------------------+ 
 | Element using extension base DateType             |
 +=========================+=========================+
 | datacollection.xsd      | DataCollectionFrequency |
@@ -46,6 +53,9 @@ Eight elements are defined as DateType. Three additional elements use DateType a
 +-------------------------+-------------------------+ 
 | reusable.xsd            | ReferenceDate           |
 +-------------------------+-------------------------+ 
+
+.. table:
+   :width 60%
 
 +---------------------------------------------------+ 
 | Attribute using BaseDateType                      |
