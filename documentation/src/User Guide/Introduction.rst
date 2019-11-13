@@ -5,7 +5,7 @@ Introduction
 DDI-Lifecycle is designed to document and manage data across the entire life cycle, from conceptualization to data publication and analysis and beyond. It encompasses all of DDI-Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/) specification and extends it.
 
 .. image:: ../images/DDILifecycle.jpg
-   :width: 400px
+   :width: 600px
 
 Figure 1 - DDI Lifecycle Model:
 
@@ -23,7 +23,7 @@ DDi-Lifeycle mirrors ISO/IEC 11179. Concepts are a unit of knowledge created by 
 A Concept may have sub-concepts, and can be organised hierachically.
 
 .. image:: ../images/concepts_marital_status.png
-   :width: 600px
+   :width: 400px
 
 Universe and population
 _____________________________
