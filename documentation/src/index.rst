@@ -11,6 +11,6 @@ DDI Lifecycle Documentation
 
    About/index.rst
    Overview/index.rst
-   UserGuide/index.rst
+   User Guide/index.rst
    TechnicalGuide/index.rst
    
