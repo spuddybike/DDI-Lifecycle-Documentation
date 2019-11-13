@@ -10,7 +10,7 @@ Field Level
 Field Level documentation in HTML format, produced directly from the XML schemas is available in the downloaded bundle and online 
 at https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema
 
-It provides a brief description of the purpose and content of the object. Documentation found in the complex Type description will provide more detail than the element documentation. Within a complex type, the additional documentation of sub-elements will focus on its purpose within the context of the complex type.
+This is main reference documentation as it provides a brief description of the purpose and content of the object. Documentation found in the complex Type description will provide more detail than the element documentation. Within a complex type, the additional documentation of sub-elements will focus on its purpose within the context of the complex type.
 
 ::ref:`usguide-label`
 
