@@ -34,15 +34,16 @@ CodeList would be noted in the TopLevelReference and the content of the returned
 Maintainable structures
 ------------------------
 
-DDI has two types of maintainable structures; Modules and Schemes. Modules are conceptually related groups of metadata related to stages within a lifecycle. Schemes are maintainable lists of reusable objects of specified generic types (i.e., questions) and include a means of expressing groups of these objects for administrative purposes. 
-
-The following is a list of Modules and Schemes available in DDI Lifecycle along with the namespace of the object, the object name, and a description.
+DDI has two types of maintainable structures; Modules and Schemes. 
 
 Modules
 ________
 
+Modules are conceptually related groups of metadata related to stages within a lifecycle. 
+
 .. table
    ::widths |15|30|55|
+   
 +--------+-----------------------+--------------------------------------------+
 | Prefix | Module Name           | Description                                |  
 +--------+-----------------------+--------------------------------------------+
@@ -136,6 +137,11 @@ ________
 
 Schemes
 ________
+
+Schemes are maintainable lists of reusable objects of specified generic types (i.e., questions) and include a means of expressing groups of these objects for administrative purposes. 
+
+.. table
+   ::widths |15|30|55|
 
 +--------+-----------------------+--------------------------------------------+
 | Prefix | Scheme Name           | Description                                |  
