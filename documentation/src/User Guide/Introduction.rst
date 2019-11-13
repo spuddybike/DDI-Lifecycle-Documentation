@@ -9,11 +9,26 @@ Figure 1 - DDI Lifecycle Model:
 .. image:: ../images/DDILifecycle.jpg
    :width: 600px
 
-Functional Description
-------------------------
+DDI-Lifecycle Coverage
+----------------------------
+
+Foundational Elements
+______________________
+
+Concept, UnitType, Universe
+SubUniverseClass
+
+Category
+CodeList
+
+ConceptualComponent
+
+Individual
+Organization
+Relation
 
 
-- Foundational
+
 - Data Capture
 - Data Description
 - Survey Development
