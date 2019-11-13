@@ -10,6 +10,7 @@ DDI Lifecycle Documentation
    :maxdepth: 2
 
    About/index.rst
-   otherstandards/index.rst
-   generalstructures/index.rst
-   structures/index.rst
+   Overview/index.rst
+   UserGuide/index.rst
+   TechnicalGuide/index.rst
+   
