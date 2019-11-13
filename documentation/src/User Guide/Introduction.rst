@@ -25,12 +25,8 @@ A Concept may have sub-concepts, and can be organised hierachically.
 .. image:: ../images/concepts_marital_status.png
    :width: 400px
 
-**Further Documentation**
-
-Schema Documentation: 
-`Concept <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/ConceptType.html>`_
-
-`UnitType <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/UnitTypeType.html>`_
+**Schema Documentation:** 
+`Concept <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/ConceptType.html>`_ ,  `UnitType <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/UnitTypeType.html>`_
 
 
 Universe and population
@@ -41,9 +37,7 @@ DDI-Lifecycle differentiates between a Universe and a population. A universe is 
 .. image:: ../images/universe_examples.png
    :width: 600px
 
-**Further Documentation**
-
-Schema Documentation: 
+**Schema Documentation:**
 `Universe <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/UniverseType.html>`_
 
 
@@ -60,6 +54,16 @@ Concepts are a cornerstone of DDI-Lifecycle, nearly 50 elements have a relations
 - Quality Standards
 - Sampling Information
 - Universe and Unit Type (as described above)
+
+Individuals, Organizations and Relations
+_________________________________________
+
+DDI-Lifecycle supports complex relationships between individuals and organizations, both at a single and multiple time points. 
+Individuals can be described using unique identifiers such as ORCID, as well as structures to support contact information, the periods for which an individual has a relationship with an organization, and the longevity of organisations. Descriptions, keywords and other affiliations are also supported.
+
+**Schema Documentation:**
+`Organization <https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema/FieldLevelDocumentation/schemas/conceptualcomponent_xsd/complexTypes/OrganizationType.html>`_
+
 
 
 A Study is composed of many elements, DDI-Lifecycle allows these to be captured and described in a consistent manner so that the data can be used independently of the producer.
