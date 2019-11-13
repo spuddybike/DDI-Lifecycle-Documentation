@@ -4,7 +4,10 @@ User Guide Documentation
 
 The User Guide provides an introduction to DDI-Lifecycle, its scope, its main features, and its relationship to DDI-Codebook
 
-High level life-cycle model
+DDi-Lifecycle has the capability to document the rich complexity of social science 160 data across its life course as reflected in the Combined Life Cycle Model [Figure 1].
+
+
+Figure 1 - Combined Life Cycle Model:
 
 .. image:: ../images/DDILifecycle.jpg
    :width: 400px
