@@ -5,7 +5,7 @@ Introduction
 DDI-Lifecycle is designed to document and manage data across the entire life cycle, from conceptualization to data publication and analysis and beyond. It encompasses all of DDI-Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/) specification and extends it.
 
 .. image:: ../images/DDILifecycle.jpg
-   :width: 600px
+   :width: 400px
 
 Figure 1 - DDI Lifecycle Model:
 
@@ -20,11 +20,31 @@ DDi-Lifeycle mirrors ISO/IEC 11179. Concepts are a unit of knowledge created by 
 .. image:: ../images/unit_type_examples.png
    :width: 600px
 
-A Concept may have sub-concepts
+A Concept may have sub-concepts, and can be organised hierachically.
 
 .. image:: ../images/concepts_marital_status.png
    :width: 600px
 
+Universe and population
+_____________________________
+
+DDI-Lifecycle differentiates between a Universe and a population. A universe is a restriction on a Unit Type (e.g. live births) of humans, and a population is a universe bounded by time and geography. **N.B.** DDI-Lifecycle does not have an explicit population element, but allows it to be described.
+
+.. image:: ../images/universe_examples.png
+   :width: 600px
+
+Concepts and other elements in DDI-Lifecycle
+_____________________________________________
+
+Concepts are a cornerstone of DDI-Lifecycle, nearly 50 elements have a relationship to it. These include (among others)
+- Categories and ClassificationItems
+- Conceptual Variables, Represented Variables and Variables
+- Geographic Location and Geographic Structure Groups
+- Measurement Items
+- Questions (Items, Grids and Blocks)
+- Quality Standards
+- Sampling Information
+- Universe and Unit Type (as described above)
 
 
 A Study is composed of many elements, DDI-Lifecycle allows these to be captured and described in a consistent manner so that the data can be used independently of the producer.
