@@ -9,7 +9,6 @@ User Guide
    :maxdepth: 2
 
    Introduction.rst
-   FieldLevel.rst
    Structural Features.rst
    Common Structures.rst
    
