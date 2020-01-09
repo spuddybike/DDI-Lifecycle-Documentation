@@ -28,7 +28,7 @@ at https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema
 This is main reference documentation as it provides a brief description of the purpose and content of the object. Documentation found in the complex Type description will provide more detail than the element documentation. Within a complex type, the additional documentation of sub-elements will focus on its purpose within the context of the complex type.
 
 Using the HTML Field Level Documentation
------------------------------------------
+..........................................
 
 The HTML documentation is generated from the content of the DDI schema set. The upper left frame contains primary navigation and opens on the Overview which lists the Namespaces and XML Schemas that comprise DDI Lifecycle. The lower left frame lists All Components, Elements, 
 Complex Elements, Simple Types, Element Groups, Attributes, and Attribute Groups). 
