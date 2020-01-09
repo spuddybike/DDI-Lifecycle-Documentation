@@ -382,6 +382,9 @@ Maintainable
 | @xml:lang                       | The language of the metadata in the Maintainable object (Payload)                                   |
 +---------------------------------+-----------------------------------------------------------------------------------------------------+
 
+Reference and Scheme Reference Type
+-------------------------------------------
+
 Reference Type
 ...............
 A *Reference Type" is a ............
