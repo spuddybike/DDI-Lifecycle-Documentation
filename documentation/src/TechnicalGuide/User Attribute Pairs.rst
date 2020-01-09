@@ -1,5 +1,5 @@
 User Attribute Pairs
-----------------------
+======================
 
 UserAttributePair is a structure that supports the use of a user specified standard key value pair, this can be attached to any VersionableType, (these are listed in the documentation for UserAttributePair).
 
