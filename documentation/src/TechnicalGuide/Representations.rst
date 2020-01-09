@@ -1,5 +1,5 @@
 Representations
----------------
+=================
 
 Representations describe the structure and content of data as it is
 captured from the population and held within a data file. They share
