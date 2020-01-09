@@ -9,6 +9,7 @@ Technical Guide
    :maxdepth: 3
 
    Other Standards.rst
+   Structural Features.rst
    General Structures.rst
    Common Structures.rst
    Versioning.rst
