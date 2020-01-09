@@ -10,10 +10,7 @@ Technical Guide
 
    Other Standards.rst
    General Structures.rst
-   indenversmainref.rst
-   indvermain.rst
-   versioning.rst
-   adminpayload.rst
+   Versioning.rst
    relationships.rst
    scopeofuniqueness.rst
    typeofidentifier.rst
