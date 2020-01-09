@@ -39,7 +39,8 @@ Past Members and Invited Experts
 - Joachim Wackerow, GESIS - Leibniz Institute for the Social Sciences, Vice Chair [2007-2016]
 
 
-### Substantive Working Group Members
+Substantive Working Group Members
+----------------------------------
 
 - Iris Alfredsson, Swedish National Data Service (SND)
 - Atle Alvheim, Norwegian Social Science Data Service (NSD)
