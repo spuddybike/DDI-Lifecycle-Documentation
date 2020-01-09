@@ -11,10 +11,6 @@ Technical Guide
    Other Standards.rst
    General Structures.rst
    Versioning.rst
-   relationships.rst
-   scopeofuniqueness.rst
-   typeofidentifier.rst
-   structureofurn.rst
    examples.rst
    maintainableobjects.rst
    namelabeldescription
