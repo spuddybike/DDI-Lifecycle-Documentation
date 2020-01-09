@@ -16,5 +16,8 @@ Technical Guide
    Versioning.rst
    Controlled Vocabularies.rst
    Representations.rst
+   Value Representation and Response Domain.rst
+   Statistical Classification.rst
+   
    Examples.rst
    
