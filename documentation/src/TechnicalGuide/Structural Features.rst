@@ -1,6 +1,6 @@
 
 Structural Features
-*******************
+====================
 
 Exchange structures
 ---------------------
