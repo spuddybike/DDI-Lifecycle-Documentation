@@ -76,7 +76,7 @@ diagram provides the Data Element Structure.
 
 **Figure 1.  ISO11179 Data Element Structure**
 
-.. |figure1| image:: ../../images/iso_1179_data_element_structure.png
+.. |figure1| image:: ../images/iso_1179_data_element_structure.png
 
 |figure1|
 
