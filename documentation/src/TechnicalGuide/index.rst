@@ -6,7 +6,7 @@ Technical Guide
 
 .. toctree::
    :caption: Table of contents
-   :maxdepth: 2
+   :maxdepth: 3
 
    Other Standards.rst
    General Structures.rst
