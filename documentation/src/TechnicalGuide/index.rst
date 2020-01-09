@@ -12,6 +12,7 @@ Technical Guide
    Structural Features.rst
    General Structures.rst
    Common Structures.rst
+   Specific Structures.rst
    Versioning.rst
    Controlled Vocabularies.rst
    Representations.rst
