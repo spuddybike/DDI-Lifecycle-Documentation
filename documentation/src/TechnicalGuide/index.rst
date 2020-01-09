@@ -10,9 +10,10 @@ Technical Guide
 
    Other Standards.rst
    General Structures.rst
+   Common Structures.rst
    Versioning.rst
-   Name Label Description.rst
    Controled Vocabularies.rst
+   Name Label Description.rst
    User Attribute Pairs.rst
    Representations.rst
    Examples.rst
