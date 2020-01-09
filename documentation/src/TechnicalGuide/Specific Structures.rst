@@ -1,6 +1,9 @@
 Specific Structures (by Topic)
 ===============================
 
+This will link through to the DDI Model documentation, each topic needs some form of description / introduction.
+I am not sure that having a description for each element is worthwhile, if for no other reason - redundancy
+
 Administration
 --------------
 A description of what adminstration means ......
