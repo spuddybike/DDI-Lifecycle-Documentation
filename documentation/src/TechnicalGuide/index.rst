@@ -8,7 +8,7 @@ Technical Guide
    :caption: Table of contents
    :maxdepth: 2
 
-   OTher Standards.rst
+   Other Standards.rst
    indenversmainref.rst
    indvermain.rst
    versioning.rst
