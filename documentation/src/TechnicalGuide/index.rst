@@ -9,6 +9,7 @@ Technical Guide
    :maxdepth: 2
 
    Other Standards.rst
+   General Structures.rst
    indenversmainref.rst
    indvermain.rst
    versioning.rst
