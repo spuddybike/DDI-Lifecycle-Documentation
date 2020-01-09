@@ -165,57 +165,6 @@ Versionable (or Maintainable if there is not a parent Versionable) at the point 
 
 In other words an Identifiable could go from a Version 1 to a Version 4 without ever having a Version 2 or 3 if the cause for versioning did not involve any change in the Identifiable object within Version 2 and 3 of the parent Versionable.
 
-Versionable
-............
-
-A *Versionable object* has the characteristics of an Identifiable object but may be managed over time. 
-
-DDI has determined that being able to tack change within the object over time is a requirement, either to understand the relationship to earlier objects of a similar type or to track provenance. 
-
-Note that it is up to the individual content provider to determine whether an object is essentially new or is a modification (version) of an earlier object. Versionable objects have a unique ID within the context of their specified scope of uniqueness (see Scope of
-Uniqueness discussion within this section). Their Agency identificationmatches that of the object’s immediate parent Maintainable at the point of creation. 
-
-In other words the Agency of an object does not change simply because it is included by reference in a Maintainable managed by a different agency. The Version number of the object changes each time its content changes. See Versioning for a discussion of when and how this may be implanted within different organizations or projects. 
-
-Maintainable
-.............
-
-A *Maintainable object* is a type of packaging and generally takes the form of either a module or scheme. 
-
-Modules package metadata focused on specified segments of the Lifecycle for which context is important for understanding. 
-
-Schemes are similar to data base tables, containing a stack of similar type objects that many have important contextual
-relevance to each other, i.e. a classification scheme captured in a DDI Category Scheme. There is one unique form of a Maintainable which is the CodeList. A CodeList is a Maintainable in its own right for the purpose of supporting the statistical production process. However it can only be published within the context of a parent Maintainable Scheme. 
-
-All Schemes and Modules may be published within the context of a Study Unit or Group (a collection of Study Units) or as a separate Resource Package item primarily for the purpose of reuse.
-
-Modules and Schemes
-^^^^^^^^^^^^^^^^^^^^
-
-Maintainable objects are of two basic types, Modules and Schemes.
-
-Modules roughly relate to stages in the life cycle or publishing packages. Publishing packages pull together related material regarding a study, a series or group of studies, reusable resources, or deposited objects. Modules like DataCollection, LogicalProduct,
-PhysicalDataProduct, and ConceptualComponents bring together sets of information related to specific activities, the results of a study, or conceptual background. They may include other modules, schemes, or non-scheme based objects.
-
-Schemes are designed to bring together sets of similar objects (i.e. Variables, Concepts, RecordLayouts, etc.) which are managed as a unit for either conceptual or administrative purposes. Schemes have a common structure providing descriptive information about the scheme, a set of similar objects, and the ability to group those objects for administrative purposes.
-
-**Figure 2.  The relationship between identifiable, versionable and maintainable type objects**
-
-.. |figure2| image:: ../images/indentifiable_to_maintainable_type.png
-
-|figure2|
-
-
-N.B.Those names starting with @ are XML attributes, all others are XML
-elements.
-
-The following objects which consist of the extension bases used for
-identification and referencing purposes are considered to be
-Administrative metadata for the purposes of versioning:
-
-Identifiable
--------------
-
 +------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Identifiable Object    | Extension base is AbstractIdentifiable                                                                                                                                             |
 +========================+====================================================================================================================================================================================+
@@ -260,8 +209,18 @@ Identifiable
 | @isIdentifiable        | Fixed value = “true” [specifies object base]                                                                                                                                       |
 +------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
+
 Versionable
--------------
+............
+
+A *Versionable object* has the characteristics of an Identifiable object but may be managed over time. 
+
+DDI has determined that being able to tack change within the object over time is a requirement, either to understand the relationship to earlier objects of a similar type or to track provenance. 
+
+Note that it is up to the individual content provider to determine whether an object is essentially new or is a modification (version) of an earlier object. Versionable objects have a unique ID within the context of their specified scope of uniqueness (see Scope of
+Uniqueness discussion within this section). Their Agency identificationmatches that of the object’s immediate parent Maintainable at the point of creation. 
+
+In other words the Agency of an object does not change simply because it is included by reference in a Maintainable managed by a different agency. The Version number of the object changes each time its content changes. See Versioning for a discussion of when and how this may be implanted within different organizations or projects. 
 
 +---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Versionable Object              | Extension base is AbstractIdentifiable                                                                                                                                             |
@@ -324,7 +283,16 @@ Versionable
 +---------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Maintainable
--------------
+.............
+
+A *Maintainable object* is a type of packaging and generally takes the form of either a module or scheme. 
+
+Modules package metadata focused on specified segments of the Lifecycle for which context is important for understanding. 
+
+Schemes are similar to data base tables, containing a stack of similar type objects that many have important contextual
+relevance to each other, i.e. a classification scheme captured in a DDI Category Scheme. There is one unique form of a Maintainable which is the CodeList. A CodeList is a Maintainable in its own right for the purpose of supporting the statistical production process. However it can only be published within the context of a parent Maintainable Scheme. 
+
+All Schemes and Modules may be published within the context of a Study Unit or Group (a collection of Study Units) or as a separate Resource Package item primarily for the purpose of reuse.
 
 +---------------------------------+-----------------------------------------------------------------------------------------------------+
 | Maintainable Object             | Extension base is AbstractMaintainable                                                              |
@@ -391,6 +359,33 @@ Maintainable
 +---------------------------------+-----------------------------------------------------------------------------------------------------+
 | @xml:lang                       | The language of the metadata in the Maintainable object (Payload)                                   |
 +---------------------------------+-----------------------------------------------------------------------------------------------------+
+
+
+Modules and Schemes
+^^^^^^^^^^^^^^^^^^^^
+
+Maintainable objects are of two basic types, Modules and Schemes.
+
+Modules roughly relate to stages in the life cycle or publishing packages. Publishing packages pull together related material regarding a study, a series or group of studies, reusable resources, or deposited objects. Modules like DataCollection, LogicalProduct,
+PhysicalDataProduct, and ConceptualComponents bring together sets of information related to specific activities, the results of a study, or conceptual background. They may include other modules, schemes, or non-scheme based objects.
+
+Schemes are designed to bring together sets of similar objects (i.e. Variables, Concepts, RecordLayouts, etc.) which are managed as a unit for either conceptual or administrative purposes. Schemes have a common structure providing descriptive information about the scheme, a set of similar objects, and the ability to group those objects for administrative purposes.
+
+**Figure 2.  The relationship between identifiable, versionable and maintainable type objects**
+
+.. |figure2| image:: ../images/indentifiable_to_maintainable_type.png
+
+|figure2|
+
+
+N.B.Those names starting with @ are XML attributes, all others are XML
+elements.
+
+The following objects which consist of the extension bases used for
+identification and referencing purposes are considered to be
+Administrative metadata for the purposes of versioning:
+
+
 
 Reference and Scheme Reference Type
 -------------------------------------------
