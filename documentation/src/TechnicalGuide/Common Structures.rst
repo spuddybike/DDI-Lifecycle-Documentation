@@ -1,6 +1,13 @@
 Commonly Used Structures
 ===========================
 
+DDI Instance and DDI Fragments
+------------------------------
+
+TODO
+......
+
+
 Name, Label, and Description
 -----------------------------
 
