@@ -1,5 +1,5 @@
 ==========================================
-DDI Lifecycle Documentation
+DDI Lifecycle (3.3) Documentation
 ==========================================
 
 .. image:: ../_static/images/ddi-logo.*
