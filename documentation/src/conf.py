@@ -27,7 +27,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'DDI'
-copyright = u'2019 DDI Allaince'
+copyright = u'2020 DDI Alliance'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
