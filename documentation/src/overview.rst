@@ -76,3 +76,14 @@ The most commonly used DDI lifecycle document is StudyUnit and it corresponds mo
 
 See DDI Structural Features for basic content organization **[2.1 Exchange structures, and 2.2 Maintainable structures].**
 
+DDI Model
+----------
+
+TODO
+......
+
+The DDI Model is a ......
+
+
+
+
