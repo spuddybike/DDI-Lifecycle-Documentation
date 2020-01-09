@@ -7,6 +7,7 @@ About
 
    licence.rst
    contactus.rst
+   contributors.rst
 
 
 
