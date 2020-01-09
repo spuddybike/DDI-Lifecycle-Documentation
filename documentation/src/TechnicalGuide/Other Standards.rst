@@ -130,8 +130,8 @@ structures. Publication structures have complete citation information
 plus an abstract. The objects with this common descriptive set are those
 that are commonly managed with registries over time.
 
-SO 19115 - Geography
----------------------
+ISO 19115 - Geography
+----------------------
 
 The construction of geographic objects within DDI was done using the US
 FGDC which is ISO 19115 compliant. The content of the following objects
