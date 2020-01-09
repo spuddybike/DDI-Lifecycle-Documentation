@@ -9,7 +9,7 @@ DDI Lifecycle (3.3) Documentation
    :caption: Table of contents
    :maxdepth: 2
    
-   Overview.rst
+   overview.rst
    About/index.rst
    TechnicalGuide/index.rst
    
