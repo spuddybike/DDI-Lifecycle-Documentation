@@ -12,7 +12,7 @@ Technical Guide
    General Structures.rst
    Common Structures.rst
    Versioning.rst
-   Controled Vocabularies.rst
+   Controlled Vocabularies.rst
    Representations.rst
    Examples.rst
    
