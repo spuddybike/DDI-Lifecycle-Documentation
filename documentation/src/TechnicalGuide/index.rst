@@ -11,8 +11,7 @@ Technical Guide
    Other Standards.rst
    General Structures.rst
    Versioning.rst
-   examples.rst
-   maintainableobjects.rst
+   Examples.rst
    namelabeldescription
    controledvocabularies.rst
    userattributepairs.rst
