@@ -14,7 +14,7 @@ Technical Guide
    Name Label Description.rst
    Controled Vocabularies.rst
    User Attribute Pairs.rst
+   Representations.rst
    Examples.rst
-   representations.rst
    inoutparameters.rst
    
