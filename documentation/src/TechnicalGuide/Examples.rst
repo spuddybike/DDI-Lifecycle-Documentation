@@ -1,5 +1,5 @@
 Examples
-^^^^^^^^^^^^
+========
 
 Note that by including the information for the MaintainableObject in an
 Identifiable or Versionable the user has provided sufficient information
@@ -15,7 +15,7 @@ to the user in determining whether the change caused by versioning will
 affect their analysis work.
 
 Identifiable
-^^^^^^^^^^^^
+--------------
 
 ::
 
@@ -45,7 +45,8 @@ Minimum required content of the above::
   </l:Code>
 
 Versionable
-^^^^^^^^^^^^
+------------
+
 ::
 
   <l:Variable isVersionable="true" scopeOfUniqueness="Agency" versionDate="2012-10-31">
@@ -79,7 +80,8 @@ Minimum required content of the above::
   </l:Variable>
 
 Maintainable
-^^^^^^^^^^^^
+-------------
+
  ::
 
   <l:VariableScheme isVersionable="true" scopeOfUniqueness="Agency" versionDate="2012-10-31" isPublished="true" xml:lang="en">
@@ -116,7 +118,8 @@ Minimum required content of the above::
   </l:VariableScheme>
 
 Reference
-^^^^^^^^^
+------------
+
 Note that in this case Version 1 of Var\_1234 originally appeared in Version 1 of VS\_IPUMS.
 However, the sourceContext indicates that VS\_IPUMS:4 is the context at the point of reference.
 
@@ -165,7 +168,7 @@ version of major version 1 of the variable is being requested.::
   </l:VariableReference>
 
 SchemeReference
-^^^^^^^^^^^^^^^
+-----------------
 
 ::
 
