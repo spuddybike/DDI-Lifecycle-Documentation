@@ -2,21 +2,16 @@
 Overview of the documentation
 ************************************
 
-::ref:`usguide-label`
 
-User Guide 
------------
+User Guide - TODO
+------------------
 
 This is aimed at those wanting a quick entry into the purpose of DDI-Lifecycle, its scope, its main features, and its relationship to DDI-Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/)
-
-::ref:`techguide-label`
 
 Technical Guide
 -----------------
 
 This is aimed at developers wanting to implement DDi-Lifecycle.
-
-::ref:`clog-label`
 
 Change Log
 -----------
