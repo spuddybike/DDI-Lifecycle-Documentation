@@ -7,7 +7,7 @@ DDI Lifecycle (3.3) Documentation
 
 .. toctree::
    :caption: Table of contents
-   :maxdepth: 2
+   :maxdepth: 3
    
    About/index.rst
    overview.rst
