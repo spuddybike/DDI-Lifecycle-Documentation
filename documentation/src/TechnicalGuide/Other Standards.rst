@@ -61,12 +61,31 @@ DDI is an implementation model. There is a shared interest in ensuring
 that DDI-L can be used as a means of implementing the GSIM conceptual
 model.
 
-Mapping work and the development of DDI profiles to support GSIM are
-taking place within that community. A primary area for close mapping to
-the GSIM structure lies in that areas that relate to their reflection of
-the ISO/IEC 11179 Data Element Classification Structure. The terminology
-for the objects as well as the documentation for the objects reflects
-the GSIM model.
+The primary areas for close mapping to the GSIM structure lies in: 
+
+= areas that relate to their reflection of the ISO/IEC 11179 Data Element Classification Structure. The terminology
+for the objects as well as the documentation for the objects reflects the GSIM model.
+- mapping to the GSIM Statistical Classification Model (https://statswiki.unece.org/display/gsim/Statistical+Classification+Model). DDi-L 3.2 supports mapping to the GSIM 1.1, The Copenhagen Mapping (https://statswiki.unece.org/display/gsim/CopenhagenMapping) and  DDI-L 3.3 supports the full model.
+
+ISO/IEC 11179
+-------------
+
+DDI-L reflects ISO/IEC 11179 structure in several respects. First, it
+maps the core structures Concept, Universe, ConceptualVariable, and
+RepresentedVariable to the ISO/IEC 11179 Data Element Classification
+Structure. The structure presented in DDI 3.2 aligns with the
+representation of this ISO standard through the GSIM structure. (See
+GSIM discussion within this section).
+
+Secondly, DDI-L has adopted the combination of the Agency, ID, and
+Version as the full unique identification of an object. This is
+reflected in the identification model and content of the DDI URN.
+Finally, DDI-L has incorporated the ISO/IEC 11179-5 structure of
+providing a Name, Label, and Description for all primary objects
+(maintainable and versionable) that are not considered publication
+structures. Publication structures have complete citation information
+plus an abstract. The objects with this common descriptive set are those
+that are commonly managed with registries over time.
 
 This standard describes the structure and content of a data element as
 the basic building block of information. DDI -L is particularly
@@ -110,25 +129,7 @@ universe. This is the reusable set of information for a Variable which
 is the implementation of a RepresentedVariable within a specific usage.
 The underlying RepresentedVariable may be referenced from the Variable.
 
-ISO/IEC 11179
--------------
 
-DDI-L reflects ISO/IEC 11179 structure in several respects. First, it
-maps the core structures Concept, Universe, ConceptualVariable, and
-RepresentedVariable to the ISO/IEC 11179 Data Element Classification
-Structure. The structure presented in DDI 3.2 aligns with the
-representation of this ISO standard through the GSIM structure. (See
-GSIM discussion within this section).
-
-Secondly, DDI-L has adopted the combination of the Agency, ID, and
-Version as the full unique identification of an object. This is
-reflected in the identification model and content of the DDI URN.
-Finally, DDI-L has incorporated the ISO/IEC 11179-5 structure of
-providing a Name, Label, and Description for all primary objects
-(maintainable and versionable) that are not considered publication
-structures. Publication structures have complete citation information
-plus an abstract. The objects with this common descriptive set are those
-that are commonly managed with registries over time.
 
 ISO 19115 - Geography
 ----------------------
