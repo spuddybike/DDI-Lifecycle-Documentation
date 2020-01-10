@@ -3,9 +3,9 @@ Change Log
 
 Change Notes for Conversion of DDI-Lifecycle 3.2 Instances to DDI-Lifecycle 3.3
  
-+===================+=======================+=======================+
-| **CHANGE Number** | **NOTES**             | **SCHEMA**            |
 +-------------------+-----------------------+-----------------------+
+| **CHANGE Number** | **NOTES**             | **SCHEMA**            |
++===================+=======================+=======================+
 | 1                 | CodeValueType and     | reusable.xsd          |
 |                   | Inter                 |                       |
 |                   | nationalCodeValueType |                       |
