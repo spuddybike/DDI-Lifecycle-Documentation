@@ -2,33 +2,27 @@
 Overview of the documentation
 ************************************
 
+The documentation is provided in a number of different formats for different audiences.
 
-User Guide - TODO
-------------------
-
-This is aimed at those wanting a quick entry into the purpose of DDI-Lifecycle, its scope, its main features, and its relationship to DDI-Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/)
-
-Technical Guide
------------------
-
-This is aimed at developers wanting to implement DDi-Lifecycle.
-
-Change Log
------------
-
-The change log desribes changes since the previous version of DDI-Lifecycle, to support users migrating between versions.
+- The DDI Model, Field Level and Technical Guide documentation are primarily aimed at developers or advanced users of the standard. 
+- The User Guide is aimed at all other users and provides a higher level overview of the use of the standard.
+- The Change Log is aimed at those migrating content or systems from previous versions of DDI Lifecycle.
 
 
-Field Level Documentation
---------------------------
 
-Field Level documentation in HTML format, produced directly from the XML schemas is available in the downloaded bundle and online 
-at https://ddialliance.org/Specification/DDI-Lifecycle/3.2/XMLSchema
+Using the DDI Model
+----------
 
-This is main reference documentation as it provides a brief description of the purpose and content of the object. Documentation found in the complex Type description will provide more detail than the element documentation. Within a complex type, the additional documentation of sub-elements will focus on its purpose within the context of the complex type.
+The DDI Model is 
+
 
 Using the HTML Field Level Documentation
 ..........................................
+
+Field Level documentation in HTML format, produced directly from the XML schemas is available in the downloaded bundle and online 
+at https://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema
+
+It provides a brief description of the purpose and content of the object. Documentation found in the complex Type description will provide more detail than the element documentation. Within a complex type, the additional documentation of sub-elements will focus on its purpose within the context of the complex type.
 
 The HTML documentation is generated from the content of the DDI schema set. The upper left frame contains primary navigation and opens on the Overview which lists the Namespaces and XML Schemas that comprise DDI Lifecycle. The lower left frame lists All Components, Elements, 
 Complex Elements, Simple Types, Element Groups, Attributes, and Attribute Groups). 
@@ -71,14 +65,20 @@ The most commonly used DDI lifecycle document is StudyUnit and it corresponds mo
 
 See DDI Structural Features for basic content organization **[2.1 Exchange structures, and 2.2 Maintainable structures].**
 
-DDI Model
-----------
-
-TODO
-......
-
-The DDI Model is a ......
 
 
+Change Log
+-----------
 
+The change log describes changes since the previous version of DDI-Lifecycle, to support users migrating between versions.
+
+Technical Guide
+-----------------
+
+This is aimed at developers wanting to implement DDi-Lifecycle.
+
+User Guide - TODO
+------------------
+
+This is aimed at those wanting a quick entry into the purpose of DDI-Lifecycle, its scope, its main features, and its relationship to DDI-Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/)
 
