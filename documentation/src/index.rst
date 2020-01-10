@@ -11,5 +11,6 @@ DDI Lifecycle (3.3) Documentation
    
    About/index.rst
    overview.rst
+   ChangeLog.rst
    TechnicalGuide/index.rst
    
