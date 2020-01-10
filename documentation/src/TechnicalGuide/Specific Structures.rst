@@ -37,7 +37,7 @@ Data Capture
 DDI-L supports both data capture from questions and measurements. The latter being introduced in DDI-L 3.3.
 
 Questions
------------
+...........
 
 As the complexity of question structures has increased, three general question structures have been identified within DDI and are addressed by the following specific structures: QuestionItem, QuestionGrid, and QuestionBlock. 
 
@@ -67,7 +67,7 @@ A Sequence (type of control construct) is the appropriate way to manage this typ
 QuestionBlock contains the standard elements of QuestionItem and QuestionGrid and then structures any combination of StimulusMaterial with referenced QuestionItems and QuestionGrids. It allows for an indication of QuestionSequence (i.e., a means of declaring the sequence is important or that it can be randomized or otherwise altered).
 
 MeasurementItem
-................
+^^^^^^^^^^^^^^^^
 
 A MeasurementItem is analagous to a QuestionItem, the difference being that the QuesitonText is replaced by a TypeofMeasurementItem which is a CodeValueType for which a controlled vocabulary mey be used, and a MeasurementItemIntent which is a textual description of what the MeasurementItem is designed to measure.
 
