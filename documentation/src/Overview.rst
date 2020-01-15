@@ -17,7 +17,7 @@ The DDI Model is
 
 
 Using the HTML Field Level Documentation
-..........................................
+-----------------------------------------
 
 Field Level documentation in HTML format, produced directly from the XML schemas is available in the downloaded bundle and online 
 at https://ddialliance.org/Specification/DDI-Lifecycle/3.3/XMLSchema
