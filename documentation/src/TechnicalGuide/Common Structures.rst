@@ -108,7 +108,7 @@ With the exception of describing the date format in a data capture system or as 
 +--------------------+-------------------------+-----------------------+ 
 | xs:gYear           | yyyy                    | 1982                  |
 +--------------------+-------------------------+-----------------------+ 
-| xs:duration        | PnnYnnMnnDTnnHnnMnn     | SP26Y02M22DT11H05M20S |
+| xs:duration        | PnnYnnMnnDTnnHnnMnn     | SP26Y02M12DT11H05M20S |
 +--------------------+-------------------------+-----------------------+ 
 
 Note that all upper case letters are literals, for example, the “T” in dateTime is literal, denoting the beginning of the Time section. Seconds (ss) may contain decimals. Optionally, dateTime can be extended by a time zone offset of “Z” to represent Zulu time or GMT. For example, Eastern Standard Time is Z-4, Central Europe is Z+1.
@@ -135,6 +135,7 @@ Eight elements are defined as DateType. Three additional elements use DateType a
 | reusable.xsd            | PublicationDate         |
 +-------------------------+-------------------------+ 
 
+
 .. table:
    :width 60%
 
@@ -147,6 +148,7 @@ Eight elements are defined as DateType. Three additional elements use DateType a
 +-------------------------+-------------------------+ 
 | reusable.xsd            | ReferenceDate           |
 +-------------------------+-------------------------+ 
+
 
 .. table:
    :width 60%
@@ -168,8 +170,7 @@ Eight elements are defined as DateType. Three additional elements use DateType a
 OtherMaterial
 --------------
 
-OtherMaterial provides a generic means of identifying an external object such as a publication, video, image, etc. that can be described by a citation and/or identified by a URI. The identified material can be related to the maintainable as a whole or to a specific object by reference. It is good practice to include the OtherMaterial within the maintainable of the objects it is related to. In addition OtherMaterial is used as an extension base or type for specific pieces of information that are generally held externally
-but need to be more tightly bound to a specific use. For example, an ExternalInterviewerInstruction extends OtherMaterial by adding display information. 
+OtherMaterial provides a generic means of identifying an external object such as a publication, video, image, etc. that can be described by a citation and/or identified by a URI. The identified material can be related to the maintainable as a whole or to a specific object by reference. It is good practice to include the OtherMaterial within the maintainable of the objects it is related to. In addition OtherMaterial is used as an extension base or type for specific pieces of information that are generally held externally but need to be more tightly bound to a specific use. For example, an ExternalInterviewerInstruction extends OtherMaterial by adding display information. 
 
 OtherMaterial can be very useful when creating very basic DDI documentation for a large collection. Materials that have not been transformed to DDI (Code lists, questionnaires, interviewer manuals, etc.) can be quickly described and linked to the basic record, retaining their link without full transformation to DDI. The internal content of the material is not as accessible as if it was in DDI but the relationship is not lost.
 
