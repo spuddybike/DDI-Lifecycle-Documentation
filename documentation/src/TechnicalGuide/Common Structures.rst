@@ -112,7 +112,9 @@ With the exception of describing the date format in a data capture system or as 
 +--------------------+-------------------------+-----------------------+ 
 
 Note that all upper case letters are literals, for example, the “T” in dateTime is literal, denoting the beginning of the Time section. Seconds (ss) may contain decimals. Optionally, dateTime can be extended by a time zone offset of “Z” to represent Zulu time or GMT. For example, Eastern Standard Time is Z-4, Central Europe is Z+1.
+
 “P” in xs:duration indicates that this is a Period of duration and the number precedes the type of period, (i.e., nnY is the number of Years). A period may be of negative duration by placing a negative sign before the “P”, for example a period of minus 10 days (-P10D).
+
 Elements of DateType support the use of a single date or date range. Date ranges are assumed to be inclusive. While normally a range will have a StartDate and EndDate, DDI supports the use of open ranges where only the StartDate or EndDate is known. SimpleDate, StartDate, and EndDate are all BaseDateType.
 
 All dates may be replicated in their HistoricalDate format to reflect how the date was expressed in original documentation. Historical date information parallels the simple date, start date and end date structures of the standard DateType. The date is captured as a string in NonISODate, the format is provided in HistoricalDateFormat (supports the use of a controlled vocabulary), and the calendar type may be specified in Calendar (supports the use of a controlled vocabulary). HistoricalDate, HistoricalStartDate, and HistoricalEndDate are all HistoricalDateType
@@ -166,6 +168,27 @@ Eight elements are defined as DateType. Three additional elements use DateType a
 +-------------------------+-------------------------+ 
 | reusable.xsd            | versionDate             |
 +-------------------------+-------------------------+ 
+
+Usage
+.......
+
+The standard Date structure supports single dates and date ranges with a start date only, start and end
+date, and end date only. Single date should only be used for events attached to a specific date, a point in
+time rather than a period of time. This allows capturing dates as expressed in original do documents or to
+capture more descriptive date information. 
+
+All dates must be expressed in the standard ISO 8601 format but may also be expressed as a HistoricalDate. This is simply a string containing the historical date and an attribute historicalDateFormat used to specify the non-ISO date format. 
+
+Historical date information parallels the simple date, start date and end date structures of the standard
+DateType.
+
+*Examples*
+
+Simple Date [add link]
+Complete Date Range [add link]
+Range with unknown start date [add link]
+Range with unknown end date [add link]
+
 
 OtherMaterial
 --------------
