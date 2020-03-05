@@ -14,6 +14,7 @@ Examples
    QualityStatement.rst
    QuestionnaireDevelopment.rst
    Questions.rst
+   Representations.rst
    Sampling.rst
    Weighting.rst
    
