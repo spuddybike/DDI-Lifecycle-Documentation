@@ -1,4 +1,4 @@
-Represenations
+Representations
 ==================
                 
 .. code-block:: XML    
