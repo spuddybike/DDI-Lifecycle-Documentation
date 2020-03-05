@@ -17,7 +17,7 @@ Dates
     xmlns:p="ddi:physicaldataproduct:3_3" xmlns:pi="ddi:physicalinstance:3_3" xmlns:pr="ddi:ddiprofile:3_3" 
     xmlns:r="ddi:reusable:3_3" xmlns:s="ddi:studyunit:3_3" xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="ddi:instance:3_3 ../../XMLSchema/instance.xsd">. 
+    xsi:schemaLocation="ddi:instance:3_3 ../../XMLSchema/instance.xsd"> 
     <r:URN>urn:ddi:us.mpc:TempCov:1</r:URN>
 	
   <!-- SimpleDate -->
