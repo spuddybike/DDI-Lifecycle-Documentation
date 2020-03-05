@@ -17,6 +17,7 @@ Examples
    Representations.rst
    RepresentedVariable.rst
    Sampling.rst
+   StatisticalSummary.rst
    Weighting.rst
    
    
