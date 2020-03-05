@@ -11,6 +11,7 @@ Examples
    Dates.rst
    InOutParameterBinding.rst
    Note.rst
+   QualityStatement.rst
    QuestionnaireDevelopment.rst
    Sampling.rst
    Weighting.rst
