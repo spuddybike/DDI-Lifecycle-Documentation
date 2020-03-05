@@ -9,6 +9,7 @@ Examples
    Archive.rst
    Citation.rst
    Dates.rst
+   InOutParameter.rst
    Note.rst
    QuestionnaireDevelopment.rst
    Sampling.rst
