@@ -1,5 +1,5 @@
-Dates
-======
+Archive
+========
 
 .. code-block:: XML
 
