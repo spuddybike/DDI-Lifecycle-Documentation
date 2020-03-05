@@ -11,5 +11,6 @@ Examples
    Dates.rst
    Note.rst
    QuestionnaireDevelopment.rst
+   Sampling.rst
    
    
