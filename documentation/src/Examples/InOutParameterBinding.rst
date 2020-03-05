@@ -1,5 +1,5 @@
-In / OutParameter
-==================
+In / Out Parameter, Binding
+============================
     
 .. code-block:: XML    
     
