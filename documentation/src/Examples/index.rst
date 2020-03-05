@@ -12,5 +12,6 @@ Examples
    Note.rst
    QuestionnaireDevelopment.rst
    Sampling.rst
+   Weighting.rst
    
    
