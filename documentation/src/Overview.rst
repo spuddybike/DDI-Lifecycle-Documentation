@@ -63,8 +63,7 @@ If you are starting from scratch and just want to explore, start at the elelment
 
 The most commonly used DDI lifecycle document is StudyUnit and it corresponds most closely to the content coverage of DDI Codebook (https://ddialliance.org/Specification/DDI-Codebook/2.5/). 
 
-See DDI Structural Features for basic content organization **[2.1 Exchange structures, and 2.2 Maintainable structures].**
-
+See the Technical Guide, Structural Features for basic content organization.
 
 
 Change Log
@@ -75,7 +74,7 @@ The change log describes changes since the previous version of DDI-Lifecycle, to
 Technical Guide
 -----------------
 
-This is aimed at developers wanting to implement DDi-Lifecycle.
+This is aimed at developers wanting to implement DDI-Lifecycle.
 
 User Guide - TODO
 ------------------
