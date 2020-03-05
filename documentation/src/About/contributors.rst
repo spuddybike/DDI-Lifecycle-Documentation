@@ -28,6 +28,7 @@ Past Members and Invited Experts
 
 - Cavan Capps, Invited expert 
 - Mark Diggory, Harvard-MIT Data Center
+- Guillaume Duffes, INSEE
 - J Gager, Technical expert
 - Arofan Gregory, Lead technical expert
 - Pascal Heus, World Bank, Development Data Group (DECDG)
