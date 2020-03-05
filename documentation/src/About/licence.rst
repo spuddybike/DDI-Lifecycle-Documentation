@@ -2,7 +2,7 @@ Copyright & Licence
 ====================
 
 DDI-Lifecycle Specification (Version 3.3)
-Copyright @ 2018 DDI Alliance. All Rights Reserved
+Copyright @ 2020 DDI Alliance. All Rights Reserved
 
 http://www.ddialliance.org/
 
@@ -26,7 +26,7 @@ Attribution
 -----------
 
 You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-No additional restrictions � You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+No additional restrictions. You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
 Notices
 --------
