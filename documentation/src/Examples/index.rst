@@ -8,4 +8,6 @@ Examples
    
    Citation.rst
    Dates.rst
+   Note.rst
+   
    
