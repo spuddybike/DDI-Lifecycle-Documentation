@@ -15,6 +15,7 @@ Examples
    QuestionnaireDevelopment.rst
    Questions.rst
    Representations.rst
+   RepresentedVariable.rst
    Sampling.rst
    Weighting.rst
    
