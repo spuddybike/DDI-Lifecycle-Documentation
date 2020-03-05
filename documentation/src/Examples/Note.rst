@@ -35,7 +35,7 @@ Note
 	      <r:NoteContent><r:Content xml:lang="en">The source of this translation was XXX rather than the standard source. The content of the English translation string should be verified prior to publication.</r:Content></r:NoteContent>
       </r:Note>	
 
-<!-- Example 2: Work-around-->
+  <!-- Example 2: Work-around-->
 
       <r:Note xml:lang="en">
 	      <r:TypeOfNote>WorkAround</r:TypeOfNote>
@@ -50,7 +50,7 @@ Note
 	      <r:NoteContent><r:Content xml:lang="en"><xhtml:dl><xhtml:dt>SourceRecordURN</xhtml:dt><xhtml:dd>urn:ddi:us.mpc:LR_1:1</xhtml:dd><xhtml:dt>SourceRecordLinkURN</xhtml:dt><xhtml:dd>urn:ddi:us.mpc:Var_1:1</xhtml:dd><xhtml:dt>TargetRecordURN</xhtml:dt><xhtml:dd>urn:ddi:us.mpc:LR_2:1</xhtml:dd><xhtml:dt>TargetRecordLink</xhtml:dt><xhtml:dd>urn:ddi:us.mpc:Var_2:1</xhtml:dd></xhtml:dl></r:Content></r:NoteContent>
       </r:Note>	
 
-<!-- Example 3: Proprietary-->
+  <!-- Example 3: Proprietary-->
 
       <r:Note>
 	      <r:Relationship>
