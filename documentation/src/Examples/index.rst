@@ -13,6 +13,7 @@ Examples
    Note.rst
    QualityStatement.rst
    QuestionnaireDevelopment.rst
+   Questions.rst
    Sampling.rst
    Weighting.rst
    
