@@ -218,13 +218,6 @@ Study
 Survey Development
 -------------------
 
-- CognitiveExpertReviewActivity
-- CognitiveInterviewActivity
-- ContentReviewActivity
-- FocusGroupActivity
-- PretestActivity
-- TranslationActivity
-
 Sampling
 ^^^^^^^^^^
 
@@ -255,6 +248,12 @@ DataCaptureDevelopment
 Includes:
 
 - Development Activity
+  - CognitiveExpertReviewActivity
+  - CognitiveInterviewActivity
+  - ContentReviewActivity
+  - FocusGroupActivity
+  - PretestActivity
+  - TranslationActivity
 - DevelopmentImplementation
 - DevelopmentPlan
 - DevelopmentResults
