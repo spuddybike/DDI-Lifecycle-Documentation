@@ -222,16 +222,32 @@ Survey Development
 - CognitiveInterviewActivity
 - ContentReviewActivity
 - FocusGroupActivity
-- Methodology
 - PretestActivity
+- TranslationActivity
+
+Sampling
+^^^^^^^^^^
+
+Includes:
+
+- Methodology
 - Sample
 - SampleFrame
 - SampleStep
 - SamplingInformationGroup
 - SamplingPlan
 - SamplingStage
-- TranslationActivity
 - WeightingMethodology
+
+Sampling Procedure has been been extended to link to a Sampling Plan and a specific Sample used during data capture. 
+
+Sampling Plan provides both basic information on the intended target population as well as the split and/or stratification rationale generally provided by codebooks for studies using a sample of a population rather than a full census of the population. The Sampling Plan can link to a process (defined by Control Construct subtypes). Two new Control Construct specializations have been added to describe a Sample Step and a Sampling Stage. Sample Step describes requirements for acceptence, stratification description, and any commands or processes needed to perform the sample. Sampling Stage decribes the sampling unit, Sample Frame requirements needed to support the sampling process, probability of selection, and stratification. It may also recommend a Sample Frame that will meet those requirements.  
+
+A Sample describes the implementation of a Sampling Plan as well as the specific Sample Frame(s) used. It specifies the population of concern, the overall target sample size as well as actual sample size, the data of the sample, and application details. A Sample can be referenced by a Sampling Procedure, a specific Collection Event, and by Weighting. At its simplist a Sample provides a basic description of the resulting sample, its size and type.
+
+Sampling Plans and Sample Frames can be organized and grouped within a Sampling Information Scheme. They are also capable of capturing complex sample stages including stratification, and experimental design models.
+
+[insert diagram here]
 
 DataCaptureDevelopment
 ^^^^^^^^^^^^^^^^^^^^^^^
