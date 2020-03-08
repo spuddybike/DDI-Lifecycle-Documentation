@@ -221,11 +221,6 @@ Survey Development
 - CognitiveExpertReviewActivity
 - CognitiveInterviewActivity
 - ContentReviewActivity
-- DataCaptureDevelopment
-- DevelopmentImplementation
-- DevelopmentPlan
-- DevelopmentResults
-- DevelopmentStep
 - FocusGroupActivity
 - Methodology
 - PretestActivity
@@ -238,7 +233,41 @@ Survey Development
 - TranslationActivity
 - WeightingMethodology
 
+DataCaptureDevelopment
+^^^^^^^^^^^^^^^^^^^^^^^
 
+Includes:
+
+- Development Activity
+- DevelopmentImplementation
+- DevelopmentPlan
+- DevelopmentResults
+- DevelopmentStep
+
+The process of creating and testing instruments to capture data through questionnaires, measurement, or reuse of existing data can be complex. Recording this information provides process blueprints and verification for large products as well as valuable information for the user who may need to understand how a question, measurement, or protocal was developed and tested in order to understand the data captured by the final instrument. This approach supports the reuse of tested activities and approaches within a discipline as well as iterations of a Development Plan within a project over time. Data Capture Development incorporates the use of the Lifecyle process model expresses with Control Constructs. It adds one specialized Control Construct (Development Step) and two general use subtypes of Control Construct (Split and SplitJoin) which allow for non-specific sequencing of process steps and actions.
+
+Development work is directed towards specific objects:
+
+- Questions: wording, response domain, translation, and instructions
+- Measurements: choice of measurement devise, calibration, interpretation, response domain, and instructions
+- Control Construct: algorithm or process used, sequencing, routing, and instructions
+- Instrument: presentation, mode specific variations, choice of mode, and instructions
+
+The primary objects used to capture development information include:
+
+Development Plan - describes object and cost structure of the plan, the development object, and the Development Activities included in the plan.
+
+Development Activity - has a number of specializations in areas of development that are well developed such as translation work. All specializations describe the desired outcomes, process summary, recommended staff requirements (such as language fluency), other required resources, a debriefing process. This basic information may be the used without having to detail the specific Development Steps taking place in an implementation. 
+
+Develpment Implementation - specifies the information of actual development work. What Development Activity was implemented, who performed the activity, and when the action was completed. It can provide detailed information on the steps of the process including internal iterations and valdiation criteria. 
+
+Development Step (specialization of a Control Costruct) - implements a Development Activity for a Development Object. It captures information on the prerequisite for the step, conditions for acceptance (when the step is complete and can be exited), and the date of the activity. This can be a single process step or part of a more complex process.
+
+Development Results - describe the final result of a the implementation of a development activity. The objects of the development work can now link to the appropriate Development Results and then follow this back to specific a Development Implementation of a Development Activity.
+
+Note that the process of selection, access to, and reuse of existing data found in registries, administrative data systems, or published data is captured using a Collection Event containing a process description or instrument (such as an API). Data Capture Development can describe the development of single or sequenced Control Constructs expressed individually or within an Instrument. 
+
+[insert diagram here]
 
 
 
