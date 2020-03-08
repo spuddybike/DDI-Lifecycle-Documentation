@@ -12,7 +12,7 @@ DDI Life Cycle Documentation
 
 Repository for the documentation of DDI-Lifecycle, 
 
-The documentation of the model in this repository is automagically compiled and published on
+The documentation of the model in this repository is automagically compiled and published https://ddi-lifecycle-documentation.readthedocs.io/en/latest/
 
 This repository contains:
 
